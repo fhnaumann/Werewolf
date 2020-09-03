@@ -1,0 +1,24 @@
+main: me.wand555.werewolf.Werewolf
+name: Werewolf
+prefix: Werewolf
+version: 1.0.0
+description: Werewolf
+api-version: 1.13
+author: wand555
+commands:
+  villager:
+    usage: /test
+    description: blbal
+  werewolf:
+    usage: /test
+    description: blbal
+  seer:
+    usage: /test
+    description: blbal
+  clearscoreboard:
+    usage: /test
+    description: blbal
+  start:
+    usage: /start
+    description: blbal
+
