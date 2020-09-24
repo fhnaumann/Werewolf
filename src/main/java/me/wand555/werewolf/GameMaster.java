@@ -64,8 +64,8 @@ public class GameMaster {
 
         //override the current playerCards with randomized maps.
         //playerCards.putAll(toPlayerRandomizedMapped(splits)); CHANGE BACK AFTER TESTING TODO
-        //Player player1 = Bukkit.getPlayer("wand555");
-        //playerCards.replace(player1.getUniqueId(), new PlayerCard(player1, new ArmorCard(player1)));
+        Player player1 = Bukkit.getPlayer("wand555");
+        playerCards.replace(player1.getUniqueId(), new PlayerCard(player1, new ArmorCard(player1)));
         Player player2 = Bukkit.getPlayer("OfficialFinex");
         playerCards.replace(player2.getUniqueId(), new PlayerCard(player2, new WerewolfCard(player2)));
         startGame(world);

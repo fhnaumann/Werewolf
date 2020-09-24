@@ -33,8 +33,8 @@ public abstract class Vote {
             if(target != null) {
                 displayVoteChangeUnderName(target, VoteOperation.DECREMENT_BY_ONE);
             }
-            //if the new target vote is valid, increment vote from there
-            if(newTarget != null) {
+            //if the new target vote is valid (player), increment vote from there
+            if(newTarget != null && !newTarget.equals(NO_TARGET_CARD)) {
                 displayVoteChangeUnderName(newTarget, VoteOperation.INCREMENT_BY_ONE);
             }
         }
